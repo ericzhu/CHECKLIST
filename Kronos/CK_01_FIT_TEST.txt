@@ -1,12 +1,18 @@
-STEP 01
+-------------------------------------------------------------
+-------------------------- STEP 01 --------------------------
+-------------------------------------------------------------
 change the tomcat datamanager.xml setting, point it to fit test database
 
-SETP 02
+-------------------------------------------------------------
+-------------------------- STEP 02 --------------------------
+-------------------------------------------------------------
 run the following command to clean and prepare the fit test database
 ----------------
 C:\dev\works\thunder\DataManager\DataManagerDatabase\target\classes\dropSchema>drop_user.bat THUNDER_EZ_FIT altint11 rdba dba1 C:\oracle\product\10.2.0\client_1
 C:\dev\works\thunder\DataManager\DataManagerDatabase\target\database>C:\dev\works\thunder\DataManager\DataManagerDatabase\target/database/process.bat altint11 rdba dba1 THUNDER_EZ_FIT alt1 C:\oracle\product\10.2.0\client_1
 ----------------
 
-SETP 03
+-------------------------------------------------------------
+-------------------------- STEP 03 --------------------------
+-------------------------------------------------------------
 find cip.suite file. right click and select run fit test
