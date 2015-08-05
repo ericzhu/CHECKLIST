@@ -6,4 +6,4 @@ update the 0.0.5 branch to the latest. -> call git pull origin 0.0.5
 -------------------------------------------------------------
 -------------------------- STEP 02 --------------------------
 -------------------------------------------------------------
-Create a new topic branch from the latest 0.0.5 commit
+Create a new topic branch from the latest 0.0.5 commit.
