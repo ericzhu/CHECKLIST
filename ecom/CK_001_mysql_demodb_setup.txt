@@ -1,0 +1,23 @@
+************************************************************
+* # STEP 01
+* login database with the default character setting utf8
+************************************************************
+mysql -u root -p --default-character-set=utf8
+
+
+
+
+************************************************************
+* # STEP 02
+* load database initialization script in mysql prompt
+************************************************************
+source C:/weblink/project/ecomlogix/webstore.beta/sql/mysql/init.sql
+
+
+
+
+************************************************************
+* # STEP 03
+* load db demo script in mysql prompt
+************************************************************
+source C:/weblink/project/ecomlogix/webstore.beta/sql/mysql/demo.sql
