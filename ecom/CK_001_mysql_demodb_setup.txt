@@ -9,6 +9,15 @@ mysql -u root -p --default-character-set=utf8
 
 ************************************************************
 * # STEP 02
+* create database with utf8 collate
+************************************************************
+CREATE DATABASE `mydb` CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+
+
+
+************************************************************
+* # STEP 03
 * load database initialization script in mysql prompt
 ************************************************************
 source C:/weblink/project/ecomlogix/webstore.beta/sql/mysql/init.sql
@@ -17,7 +26,7 @@ source C:/weblink/project/ecomlogix/webstore.beta/sql/mysql/init.sql
 
 
 ************************************************************
-* # STEP 03
+* # STEP 04
 * load db demo script in mysql prompt
 ************************************************************
 source C:/weblink/project/ecomlogix/webstore.beta/sql/mysql/demo.sql
