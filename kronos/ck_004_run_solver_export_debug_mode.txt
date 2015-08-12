@@ -2,3 +2,5 @@
 -------------------------- STEP 01 --------------------------
 -------------------------------------------------------------
 Add the following line paramer to vm params in run configuration
+
+-Dcom.adopt.aop.altitude.optexport.mode=debug
