@@ -1,0 +1,31 @@
+-------------------------------------------------------------
+-------------------------- STEP 01 --------------------------
+-------------------------------------------------------------
+check the log in the script folder ../update_db/log/update_ciePI.log
+
+
+-------------------------------------------------------------
+-------------------------- STEP 02 --------------------------
+-------------------------------------------------------------
+At the end of log, if you see column already exist, it means there
+is some confilict with existing schema.
+
+- action - drop the column added manaually
+
+
+-------------------------------------------------------------
+-------------------------- STEP 03 --------------------------
+-------------------------------------------------------------
+go to the daba_config table, find the record with the id that indicated
+the error number. then delete it.
+
+delete data_config where id = ...
+
+*********************************************
+NOTE: don't forget commit the delete before re run the db update script
+*********************************************
+-------------------------------------------------------------
+-------------------------- STEP 04 --------------------------
+-------------------------------------------------------------
+Re run the db update script
+
