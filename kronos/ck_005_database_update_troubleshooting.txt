@@ -1,3 +1,12 @@
+Sometimes after running the db stript, no errors but the database
+is not update properly. 
+
+It is possible that during the script execution, some conflict
+happens with existing db schema and the db execution exist nomrally.
+
+In this case we have to check the log message at the bottom of 
+the log file.
+
 -------------------------------------------------------------
 -------------------------- STEP 01 --------------------------
 -------------------------------------------------------------
